@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    [x-cloak] { display: none !important; }
+
+    html {
+        font-family: Montserrat, system-ui, sans-serif;
+    }
+}
